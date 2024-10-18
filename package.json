@@ -1,0 +1,29 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Personal Project with SASS y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmaroal/music-festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Pedro Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmaroal/music-festival/issues"
+  },
+  "homepage": "https://github.com/pmaroal/music-festival#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "sass": "^1.80.1"
+  }
+}
