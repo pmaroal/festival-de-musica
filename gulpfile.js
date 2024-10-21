@@ -1,3 +1,5 @@
-export function hola() {
-  "Hola desde Gulpfile.js";
+export function hola(done) {
+  console.log("Hola desde Gulpfile.js");
+
+  done();
 }
